@@ -2,6 +2,12 @@
 
 Frontend Developer | React.js • UI • Performance
 
+## Stack
+
+- **Monorepo** : pnpm workspaces
+- **App** : Vite, React 19, TypeScript, Tailwind CSS v4
+- **Qualité** : ESLint, Prettier, TypeScript strict
+
 ## Monorepo
 
 - **apps/web** — Site portfolio (Vite + React + TypeScript)
@@ -16,10 +22,12 @@ Frontend Developer | React.js • UI • Performance
 
 ```bash
 pnpm install
-pnpm dev        # Lance l’app web en dev
-pnpm build      # Build de l’app web
-pnpm preview    # Prévisualise le build
-pnpm lint       # Lint tous les packages
+pnpm dev          # Lance l’app web en dev
+pnpm build        # Build de l’app web
+pnpm preview      # Prévisualise le build
+pnpm lint         # Lint tous les packages
+pnpm format       # Formate le code (Prettier)
+pnpm format:check # Vérifie le format sans modifier
 ```
 
 ### Développement

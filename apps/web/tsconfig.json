@@ -1,6 +1,7 @@
 {
   "extends": "@madebygass/tsconfig/react.json",
   "compilerOptions": {
+    "jsx": "react",
     "composite": true,
     "baseUrl": ".",
     "paths": {
